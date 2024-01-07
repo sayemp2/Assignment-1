@@ -41,9 +41,9 @@ body{
 .banner{
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
     background-position: center;
-    background-size: 1080px  600px;
+    background-size: 100%;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 490px;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -119,9 +119,9 @@ body{
 .party-section{
     background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(../images/Vectorrr.png) ;
     background-position: center;
-    background-size: 1080px  600px;
+    background-size:100%;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 490px;
     border-radius: 16px;
     display: flex;
     justify-content:space-around ;
@@ -130,6 +130,7 @@ body{
 .party-heading{
     width: 80%;
     max-width: 600px;
+    padding-left: 50px;
 }
 .party-heading h1{
     color: #FFF;    
@@ -142,7 +143,11 @@ body{
 .party-heading p{
     margin: 20px 0 40px 0;
 }
-
+.party-img img{
+    width: 255px;
+    height: 400px;
+    padding-right: 100px;
+}
 
 .transparent{
     background-color: transparent;
