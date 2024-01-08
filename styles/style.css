@@ -147,6 +147,7 @@ body{
     width: 255px;
     height: 400px;
     padding-right: 100px;
+    mix-blend-mode: hard-light;
 }
 
 .transparent{
